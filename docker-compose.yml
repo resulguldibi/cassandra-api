@@ -1,0 +1,28 @@
+version: '3.1'
+
+services:
+   
+    cassandra:
+       image: cassandra
+       container_name: cassandra
+       restart: always
+       #command: "cqlsh -e 'CREATE KEYSPACE my_keyspace WITH replication = {'class' : 'NetworkTopologyStrategy','my_datacenter' : 1};'"
+       #command: "cqlsh -e 'CREATE TABLE my_keyspace.my_table (id text primary key,count int,word text);'"
+       #command: "cqlsh -e 'insert into my_keyspace.my_table(id,count,word) values('1',10,'sample');'"
+            
+       ports:
+           - 9042:9042
+       environment:
+           CASSANDRA_CLUSTER_NAME: my_cluster
+           CASSANDRA_ENDPOINT_SNITCH: GossipingPropertyFileSnitch
+           CASSANDRA_DC: my_datacenter  
+    cassandra-api:
+        image: resulguldibi/cassandra-api
+        container_name: cassandra-api
+        restart: always
+        depends_on:
+            - cassandra
+        links:
+            - cassandra  
+        ports:
+            - 8080:8080

@@ -1,0 +1,9 @@
+C:\Users\resul\source\repos\sample-api\client.cassandra\bin\Debug\netcoreapp3.1\client.cassandra.deps.json
+C:\Users\resul\source\repos\sample-api\client.cassandra\bin\Debug\netcoreapp3.1\client.cassandra.dll
+C:\Users\resul\source\repos\sample-api\client.cassandra\obj\Debug\netcoreapp3.1\client.cassandra.AssemblyInfoInputs.cache
+C:\Users\resul\source\repos\sample-api\client.cassandra\obj\Debug\netcoreapp3.1\client.cassandra.AssemblyInfo.cs
+C:\Users\resul\source\repos\sample-api\client.cassandra\bin\Debug\netcoreapp3.1\client.cassandra.pdb
+C:\Users\resul\source\repos\sample-api\client.cassandra\obj\Debug\netcoreapp3.1\client.cassandra.csproj.CoreCompileInputs.cache
+C:\Users\resul\source\repos\sample-api\client.cassandra\obj\Debug\netcoreapp3.1\client.cassandra.dll
+C:\Users\resul\source\repos\sample-api\client.cassandra\obj\Debug\netcoreapp3.1\client.cassandra.pdb
+C:\Users\resul\source\repos\sample-api\client.cassandra\obj\Debug\netcoreapp3.1\client.cassandra.csprojAssemblyReference.cache
